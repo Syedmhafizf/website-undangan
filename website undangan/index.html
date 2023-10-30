@@ -8,7 +8,7 @@
       <!-- font -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,200;0,400;0,500;1,200;1,500&display=swap"
+      <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,500&display=swap"
        rel="stylesheet">
 
     <!-- Css Bootsrap -->
@@ -18,6 +18,9 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
+    <!-- Bootsrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <!-- my css -->
     <link rel="stylesheet" href="css/style.css">
@@ -30,6 +33,7 @@
   </head>
   <body>
     
+    <!-- hero section start -->
     <section id="hero" class="hero w-100 h-100 text-center p-3 mx-auto d-flex justify-content-center
     align-items-center text-white">
         <main>
@@ -40,7 +44,149 @@
             <a href="" class="btn btn-lg">Lihat Undangan</a>    
         </main>
     </section>
+    <!-- hero section end -->
 
+    <!-- Navbar section start -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynav">
+      <div class="container">
+        <a class="judul navbar-brand" href="#">Bezethade</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bezethade</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body text-center">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#info">info</a>
+                <a class="nav-link" href="#story">story</a>
+                <a class="nav-link" href="#gallery">gallery</a>
+                <a class="nav-link" href="#rsvp">rsvp</a>
+                <a class="nav-link" href="#gifts">gifts</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar saction end -->
+    
+    <!-- Home section start -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 28 september 2030 di Islamic center, Kab.Tasikmalaya.</h3>
+            <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, 
+              untuk hadir pada acara pernikahan kami.
+            </p>
+          </div>
+
+        </div>
+        
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Bezethade</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio voluptatem 
+                  corporis esse! Harum, quidem?</p>
+                  <p>Putra dari Bpk. Lorem <br> dan <br> Ibu Ipsum</p>
+              </div>
+
+              <div class="col-4">
+                <img src="img/syd.jpeg" alt="Bzhd" class="img-responsive rounded-circle">
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/syd.jpeg" alt="Bzhd" class="img-responsive rounded-circle">
+              </div>
+              <div class="col-8">
+                <h3>Bezethade</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio voluptatem 
+                  corporis esse! Harum, quidem?</p>
+                  <p>Putra dari Bpk. Lorem <br> dan <br> Ibu Ipsum</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>        
+    <!-- Home section end -->
+
+    <!-- Info section start -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: Gedung Islamic Center Kab. Tasikmalaya. <br> Jl. Singasari, Singasari, Kec. Singaparna, 
+              Kabupaten Tasikmalaya.</p>
+              <a href="https://maps.app.goo.gl/N3F69XnUuXir7vTi7" target="_blank" class="btn my-3">Klik untuk membuka peta</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda-tanda
+              sedang dilangsungkan pernikahan, boleh jadi anda salah jadwal atau tempat.
+            </p>  
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center mb-4">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Sabtu, 28 september 2030</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kehidmatan dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-10">
+            <div class="card text-center">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>10.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Sabtu, 28 september 2030</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kehidmatan dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Info section end -->
+    
+    
 
 
 
@@ -70,6 +216,19 @@
                 seconds: { singular: 'Detik', plural: 'Detik' }
             },
           });
+    </script>
+
+    <script>
+        const stickyTop = document.querySelector('.sticky-top');
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('show.bs.offcanvas', function() {
+          stickyTop.style.overflow = 'visible';
+        });
+
+        offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+          stickyTop.style.overflow = 'hidden';
+        });
     </script>
 
   </body>
